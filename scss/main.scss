@@ -2,6 +2,7 @@
 @import 'utilities';
 @import 'item_grid';
 
+
 //General Styles
 * {
   margin: 0;
@@ -95,7 +96,7 @@ img {
 
   // Header Inner
   &-inner {
-    background:$background-image no-repeat center right / cover;
+    background:$background-image no-repeat 20% 30% / cover;
     height: 6.5rem;
     border-bottom: 3px solid $main-color;
   }
@@ -347,7 +348,7 @@ img {
       }
     }
 
-    button[type='submit']{
+    button[type='submit'] {
       width: 25%;
     }
   }
@@ -399,3 +400,6 @@ img {
     }
   }
 }
+
+// Import Media Queries
+@import 'media';
